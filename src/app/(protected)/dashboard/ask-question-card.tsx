@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Textarea } from "@/components/ui/textarea"
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog'
 import { Button } from '@/components/ui/button'
-import { generate } from './action'
+import { generate } from './actions'
 import { readStreamableValue } from 'ai/rsc'
 import CodeReferences from './code-references';
 import Image from 'next/image';
