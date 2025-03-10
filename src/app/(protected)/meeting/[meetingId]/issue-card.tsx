@@ -63,7 +63,7 @@ const IssueCard = ({ issue }: Props) => {
                                 onChange={(e) => setQuery(e.target.value)}
                             />
                             <span className="text-xs text-gray-500">
-                                Dionysus has context about this issue and the meeting
+                                Codesage has context about this issue and the meeting
                             </span>
                             {answer && (
                                 <>

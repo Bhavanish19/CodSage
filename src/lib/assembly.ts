@@ -49,10 +49,3 @@ const transcript = await client.transcripts.transcribe({
 
 await writeFileSync('transcript.json', JSON.stringify(transcript, null, 2))
 
-// const summaries = transcript.chapters?.map(chapter => ({
-//     start: msToTime(chapter.start),
-//     end: msToTime(chapter.end),
-//     gist: chapter.gist,
-//     headline: chapter.headline,
-//     summary: chapter.summary
-// })) || [];
